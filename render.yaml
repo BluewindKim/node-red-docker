@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: nodered-app
+    env: docker
+    repo: https://github.com/BluewindKim/node-red-docker
+    branch: master
+    plan: free
